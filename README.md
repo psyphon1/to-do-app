@@ -1,5 +1,4 @@
-```
-markdown
+```markdown
 # ✅ AI-Powered To-Do App 📱✨
 
 A smart, cross-platform productivity app built using **AI-assisted development** with **Gemini API integration**, **MySQL backend**, and **React Native (Expo)** frontend. Designed to intelligently manage your tasks, parse natural language input, and boost personal productivity.
