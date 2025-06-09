@@ -1,6 +1,3 @@
----
-
-```markdown
 
 ---
 
@@ -148,4 +145,3 @@ I’ve kept the code public for:
 ```
 
 ---
-```
