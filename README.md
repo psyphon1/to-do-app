@@ -1,8 +1,16 @@
 ---
 
+```markdown
 
+---
 
-## 🧠 Key Features
+> ⚠️ **Status: Incomplete & Discontinued**  
+This project is **currently not completed** and has been **abandoned**.  
+I am no longer actively working on it. The repository remains public for learning/reference purposes.
+
+---
+
+## 🧠 Key Features (Planned / Partially Implemented)
 
 ✅ Natural language to structured task conversion  
 ✅ AI-generated subtasks & suggestions  
@@ -16,18 +24,18 @@
 
 ## 📌 Project Overview
 
-> **Note:** This app was fully generated using **AI tools** (ChatGPT, Curser AI, Gemini API).  
-> I focused on understanding:
-> - 🧱 Architecture (Frontend + Backend + AI)
-> - 🔗 API integration with Gemini & MySQL
-> - ⚙️ Internal backend working
-> - 🧪 Running via Android Studio Emulator
+> **Note:** This app was built entirely with **AI assistance** from tools like **ChatGPT, Curser AI, and Gemini API**.  
+> I did **not write the code manually**, but I focused on:
+> - Understanding frontend–backend architecture
+> - Learning how AI APIs integrate with real-world apps
+> - Designing database and task management structure
+> - Running and testing with **Android Studio Emulator**
 
-This was a **real-world learning project**, building a complete smart app with AI — without writing code manually, but thoroughly understanding how it works.
+This was a **learning-through-AI project** to deeply explore how AI enhances productivity app development.
 
 ---
 
-## 🔧 Tech Stack
+## 🛠️ Tech Stack
 
 | Layer         | Technology                           |
 |--------------|----------------------------------------|
@@ -40,41 +48,38 @@ This was a **real-world learning project**, building a complete smart app with A
 
 ---
 
-## 🚀 Setup & Run
+## 📂 Project Structure
 
-```bash
-# 1. Install Expo CLI
-npm install -g expo-cli
+```
 
-# 2. Clone the repo
-git clone https://github.com/yourusername/todo-ai-app-mobile.git
-cd todo-ai-app-mobile
+todo-ai-app-mobile/
+├── assets/
+├── components/
+├── screens/
+├── services/
+│   └── geminiAPI.js
+├── utils/
+├── App.js
+├── app.json
+├── package.json
+└── README.md
 
-# 3. Install dependencies
-npm install
-
-# 4. Run the app
-expo start
 ````
-
-📱 Use the QR code from the terminal or open the app in **Android Studio emulator**.
 
 ---
 
 ## 🔐 Gemini API Setup
 
-1. Go to: [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Copy your API key
-3. Paste it inside the service file:
+1. Get your API key from: [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Add it to `services/geminiAPI.js`
 
 ```js
-// services/geminiAPI.js
 const GEMINI_API_KEY = "your-api-key-here";
-```
+````
 
 ---
 
-## 🧠 Example AI Prompt Used
+## 🧠 Example AI Prompt
 
 ```json
 You are a productivity assistant. Convert the user's sentence to this format:
@@ -91,88 +96,56 @@ Input: "Finish frontend for my project by Friday evening"
 
 ---
 
-## 📁 Project Structure
-
-```
-todo-ai-app-mobile/
-├── assets/               # Images, icons, fonts
-├── components/           # Reusable UI components
-├── screens/              # Home, Add Task, Summary etc.
-├── services/             # Gemini API integration
-├── utils/                # Task formatting, AI prompts
-├── App.js                # Entry point
-├── app.json              # Expo config
-└── README.md
-```
-
----
-
-## 📦 Backend Notes
-
-Backend includes:
-
-* 📮 `/api/parse-task` for Gemini prompt handling
-* 🧾 `/api/tasks` to store, edit, and delete user tasks
-* 🔑 JWT Auth or Firebase Auth (pluggable)
-* 💾 MySQL schema: `users`, `tasks`, `subtasks`, `history`
-
----
-
 ## 📲 Tested On
 
 * ✅ Android Studio Emulator (Pixel 5 - API 34)
-* ⏳ iOS testing in progress
+* ❌ iOS (Not tested)
 
 ---
 
-## 🚧 Roadmap / Next Features
+## 🚧 Roadmap / Future Scope (Paused)
 
-* [ ] 📅 Drag-and-drop calendar
-* [ ] 🤝 Task sharing & collaboration
-* [ ] 💬 In-app AI chat assistant
-* [ ] 🧠 On-device AI fallback (Gemini Nano)
-* [ ] 💳 Subscriptions for premium AI features
-
----
-
-## 🤖 Built with AI
-
-This entire project was created with **AI tools**, not by hand.
-I used:
-
-* `Curser AI` for full-stack generation
-* `ChatGPT` to understand and debug code
-* `Gemini API` to power the smart features
-
-> My focus was to **learn through implementation**, not manually write every line.
-> I now understand full-stack app structure, AI integration, REST APIs, backend logic, and mobile deployment.
+* [ ] Calendar-based task view
+* [ ] Drag-and-drop task manager
+* [ ] AI Assistant Chat Interface
+* [ ] Team collaboration features
+* [ ] In-app billing / AI quota usage
 
 ---
 
-## 📸 Preview (Add screenshots here)
+## 🤖 AI-Generated Code Acknowledgment
 
-| Home Screen   | AI Suggestion | Weekly Report |
-| ------------- | ------------- | ------------- |
-| *(add image)* | *(add image)* | *(add image)* |
+All code in this repository was generated with the help of AI tools.
+I focused entirely on:
+
+* Understanding AI & backend integration
+* Reviewing architecture and flow
+* Experimenting with prompt design
+* Testing UI in Android Studio Emulator
+
+---
+
+## ❌ Why the Project is Discontinued
+
+Due to time constraints and shifting focus to other projects, I have **paused** development of this app.
+I’ve kept the code public for:
+
+* Educational purposes
+* AI-integration examples
+* UI/UX reference
 
 ---
 
 ## 📜 License
 
-**MIT License** — © 2025 \[Your Name]
+**MIT License** — © 2025 \Chinmay Duse
 
 ---
 
-### 🙌 Let’s connect if you’re interested in AI + apps!
+> 💬 Want to fork it and continue? Feel free!
+> If you'd like help understanding the structure, prompts, or backend design, reach out via LinkedIn check My profile. 
 
 ```
 
 ---
-
-Would you like me to:
-- Convert this into a GitHub README with screenshots?
-- Auto-generate `package.json`, `geminiAPI.js`, or folder structure?
-- Write your backend README next?
-
-Let me know — I’m ready to help you package it all up professionally.
 ```
