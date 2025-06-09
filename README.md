@@ -1,22 +1,6 @@
 ---
 
 ````markdown
-<h1 align="center">📝✨ AI-Powered To-Do App</h1>
-<p align="center">
-  Smart. Predictive. Voice-enabled.<br/>
-  Your next-gen task manager powered by AI.
-</p>
-
-<div align="center">
-
-![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blueviolet)
-![AI](https://img.shields.io/badge/AI-Gemini%20API-brightgreen)
-![Database](https://img.shields.io/badge/DB-MySQL-orange)
-![Expo](https://img.shields.io/badge/Built%20With-Expo%20(React%20Native)-blue)
-
-</div>
-
----
 
 ## 🧠 Key Features
 
