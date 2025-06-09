@@ -4,6 +4,7 @@
 > ⚠️ **Status: Incomplete & Discontinued**  
 This project is **currently not completed** and has been **abandoned**.  
 I am no longer actively working on it. The repository remains public for learning/reference purposes.
+This whole project is made with AI,I tried to learn architecture,backend,working,api control,working of react,node and android studio of apps.
 
 ---
 
